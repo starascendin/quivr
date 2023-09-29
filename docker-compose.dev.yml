@@ -32,7 +32,7 @@ services:
     ports:
       - 5050:5050
     
-  redis:
+  quivr-redis:
     image: redis:latest
     container_name: redis
     restart: always
